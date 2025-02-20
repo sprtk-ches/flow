@@ -37,8 +37,8 @@ $internalProducts = [
 
 /**
  * DataFrame::join will perform joining having both dataframes in memory.
- * This means that if if the right side dataframe is big (as the left side usually will be a batch)
- * then it might become performance bottleneck.
+ * This means that if the right side dataframe is big (as the left side will usually be a batch)
+ * then it might become a performance bottleneck.
  * In that case please look at DataFrame::joinEach.
  */
 data_frame()
